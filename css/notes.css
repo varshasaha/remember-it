@@ -197,6 +197,9 @@ li:hover .editOrDelete{
 	a img {
 		max-width:30%;
 	}
+	li .editOrDelete{
+		display:block;
+	}
 }
 
 .required{
