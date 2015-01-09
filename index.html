@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/notes.css"/>
+		<title>RememberIt!</title>
+	</head>
+	<body>
+			<h1 class="center">Post your thoughts on RememberIt!</h1>
+			<div class="rememberitContainer">
+				<section id="addNoteModule" class="addNote">
+					<h3 class="center">Add Note</h3>
+					<label for="noteTitle">Title</label>
+					<div class="inputTag">
+						<input id="noteTitle" type="text" placeholder="e.g. Wash clothes!" autofocus/>
+						<div class="required">
+							<span>*Required</span>
+						</div>
+					</div>
+					<label for="noteDescription">Description</label>
+					<textarea id="noteDescription" placeholder="e.g. Stinky clothes are bad. Wash them regularly."></textarea>
+					<div class="center">
+						<button>Save</button>
+					</div>
+					<div class="dogear"></div>
+				</section>
+				<section id="notesView" class="viewNotes">
+					<ul>
+					</ul>
+					<div class="editOrDelete">
+						<a class="editNote"><img src="images/edit-icon.png" alt="edit"></a>
+						<a class="deleteNote"><img src="images/delete-icon.png" alt="delete"></a>
+					</div>
+				</section>
+			<section id="notesEditView" class="noteStyle">
+				<div class="editDisplay">
+					<h3 class="center">Edit Note</h3>
+					<label for="noteTitleEdit">Title</label>
+					<input id="noteTitleEdit" type="text" placeholder="e.g. Wash clothes!" autofocus/>
+					<label for="noteDescriptionEdit">Description</label>
+					<textarea id="noteDescriptionEdit" placeholder="e.g. Stinky clothes are bad. Wash them regularly."></textarea>
+					<div class="center">
+						<button>Update</button>
+					</div>
+					<div class="dogear"></div>
+				</div>
+			</section>
+			<section id="displayNote">
+				<h3 class="center"><span></span></h3>
+				<div>
+				</div>
+				<div class="dogear"></div>
+			</section>
+			<div class="lightbox">
+			</div>
+		</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/core.js"></script>
+		<script src="js/sandbox.js"></script>
+		<script src="js/modules/add-note.js"></script>
+		<script src="js/modules/note-model.js"></script>
+		<script src="js/modules/note-list-view.js"></script>
+		<script src="js/modules/note-edit-view.js"></script>
+		<script src="js/modules/display-note-view.js"></script>
+	</body>
+</html>
