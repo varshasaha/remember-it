@@ -191,11 +191,11 @@ li:hover .editOrDelete{
 	li{
 		display : block;
 		width:90%;
-		font-size:0.8em;
+		font-size:1em;
 		margin-top:1%;
 	}
 	a img {
-		max-width:40%;
+		max-width:30%;
 	}
 }
 
@@ -236,11 +236,14 @@ li:hover .editOrDelete{
 	li{
 		display : block;
 		width:90%;
-		font-size:0.8em;
+		font-size:1em;
 		margin-top:1%;
 	}
 	a img {
-		width:40%;
+		width:30%;
+	}
+	li .editOrDelete{
+		display:block;
 	}
 }
 
